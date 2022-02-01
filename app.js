@@ -20,7 +20,7 @@ app.use(express.static("public"));
 
 // connecting  to mongoose locally,making a schema and a mongoose model.
 
-mongoose.connect("mongodb://localhost:27017/blogDB", {useNewUrlParser: true});
+mongoose.connect("process.env.PORT || mongodb://localhost:27017/blogDB", {useNewUrlParser: true});
 
 const postSchema = {
   title: String,
