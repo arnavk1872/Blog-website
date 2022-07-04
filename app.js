@@ -7,9 +7,9 @@ const mongoose = require("mongoose");
 
 //text that will always remain same in the website.
 
-const homeStartingContent = "Hey! I'm Arnav Khajuria";
-const aboutContent = "Hello. I am a student of Government college of engineering and technology Jammu (J&K). I'm studying E&C engineering . I am a full stack web developer . I also know C++ and i like to play guitar . I've always wanted to do something in programming . This is one of my first projects as a developer.";
-const contactContent = "Contact For inquires : arnavk1802@gmail.com , arnavk1872@gmail.com ; twitter:Arnavkhajuria18";
+const homeStartingContent = "Hey! I'm Arnav Khajuria.This is a Personal Blog project that i've made which uses Javascript,Node.js,MongoDB and EJS to function.This Blog can be updated with new posts constantly and is fully functional.The style of every page is made the same with less work with the use of EJS and Node.js,MongoDB has been used for the backend.";
+const aboutContent = "Hello.I am Arnav Khajuria.I am pursuing Electronics & Communication Engineering from Government College of Engineering & Technology Jammu,J&K . I am a self taught full stack developer and i have made projects in many front end and backend technologies and frameworks which also includes this project.";
+const contactContent = "Contact for inquires <br> Email: arnavk1802@gmail.com , arnavk1872@gmail.com  <br> Twitter : Arnavkhajuria18 <br> Github : github.com/arnavk1872" ;
 
 const app = express();
 

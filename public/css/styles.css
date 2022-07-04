@@ -16,7 +16,7 @@
 }
 
 .footer-padding {
-	padding-bottom: 60px;
+	padding-bottom: 160px;
 }
 
 .footer {
@@ -24,7 +24,7 @@
 	text-align: center;
 	bottom: 0;
 	width: 100%;
-	height: 60px;
+	height: 100px;
     background-color: #658b84;
 }
 
